@@ -1,0 +1,28 @@
+{
+  "item.woodarmor.wood_piece": "Piece of Wood",
+  "item.woodarmor.stone_ingot": "Stone Ingot",
+  "item.woodarmor.stone_steel": "Stone Steel",
+  "item.woodarmor.raw_stone_steel": "Raw Stone Steel",
+  "item.woodarmor.stone_helmet": "Stone Helmet",
+  "item.woodarmor.stone_chestplate": "Stone Chestplate",
+  "item.woodarmor.stone_leggings": "Stone Leggings",
+  "item.woodarmor.stone_boots": "Stone Boots",
+  "item.woodarmor.metal_detector": "Metal Detector",
+  "item.woodarmor.wood_chips": "Wood Chips",
+
+  "block.woodarmor.wood_piece_bundle": "Wood Piece Bundle",
+  "block.woodarmor.stone_steel_ore": "Stone Steel Ore",
+  "block.woodarmor.deepslate_stone_steel_ore": "Deepslate Stone Steel Ore",
+  "block.woodarmor.raw_stone_steel_block": "Raw Stone Steel Block",
+  "block.woodarmor.stone_steel_block": "Stone Steel Block",
+  "block.woodarmor.sound_block": "Sound Block",
+
+
+  "creativetab.wood_armor_tab": "Wood Armor",
+
+  "item.woodarmor.metal_detector.no_valuables": "No Valuables Found!",
+
+  "tooltip.woodarmor.metal_detector.tooltip.shift": "Right Click on Blocks to find Valuables",
+  "tooltip.woodarmor.metal_detector.tooltip": "Press §eShift§r for more Information",
+  "tooltip.woodarmor.sound_block": "Plays nice sounds when walking or right-clicking"
+}

@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "woodarmor:stone_steel_ore",
+    "woodarmor:deepslate_stone_steel_ore",
+    "woodarmor:raw_stone_steel_block",
+    "woodarmor:stone_steel_block"
+  ]
+}
