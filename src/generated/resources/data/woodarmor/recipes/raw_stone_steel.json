@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "stone_steel",
+  "key": {
+    "#": {
+      "item": "woodarmor:raw_stone_steel"
+    }
+  },
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "result": {
+    "item": "woodarmor:raw_stone_steel_block"
+  },
+  "show_notification": true
+}

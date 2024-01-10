@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "stone_steel",
+  "ingredients": [
+    {
+      "item": "woodarmor:raw_stone_steel_block"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "item": "woodarmor:raw_stone_steel"
+  }
+}

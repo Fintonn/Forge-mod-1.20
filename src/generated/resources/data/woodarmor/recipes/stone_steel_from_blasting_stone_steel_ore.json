@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 100,
+  "experience": 0.25,
+  "group": "stone_steel",
+  "ingredient": {
+    "item": "woodarmor:stone_steel_ore"
+  },
+  "result": "woodarmor:stone_steel"
+}

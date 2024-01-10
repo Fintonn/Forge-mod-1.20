@@ -22,7 +22,7 @@ public class ModBlockLootTables extends BlockLootSubProvider {
         this.dropSelf(ModBlocks.WOOD_PIECE_BUNDLE.get());
         this.dropSelf(ModBlocks.RAW_STONE_STEEL_BLOCK.get());
         this.dropSelf(ModBlocks.SOUND_BLOCK.get());
-        this.dropSelf(ModBlocks.RAW_STONE_STEEL_BLOCK.get());
+        this.dropSelf(ModBlocks.STONE_STEEL_BLOCK.get());
 
         this.add(ModBlocks.STONE_STEEL_ORE.get(),
                 block -> createOreDrop(ModBlocks.STONE_STEEL_ORE.get(), ModItems.RAW_STONE_STEEL.get()));

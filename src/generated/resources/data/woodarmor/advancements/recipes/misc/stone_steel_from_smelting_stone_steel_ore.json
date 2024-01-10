@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_stone_steel_ore": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "woodarmor:stone_steel_ore"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "woodarmor:stone_steel_from_smelting_stone_steel_ore"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_stone_steel_ore",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "woodarmor:stone_steel_from_smelting_stone_steel_ore"
+    ]
+  },
+  "sends_telemetry_event": false
+}
