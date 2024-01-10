@@ -21,6 +21,7 @@ public class ModItemModelProvider extends ItemModelProvider {
         simpleItem(ModItems.RAW_STONE_STEEL);
         simpleItem(ModItems.WOOD_PIECE);
         simpleItem(ModItems.STONE_INGOT);
+        simpleItem(ModItems.WOOD_CHIPS);
 
         simpleItem(ModItems.METAL_DETECTOR);
     }
