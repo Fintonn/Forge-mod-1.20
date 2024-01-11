@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "woodarmor:wood_piece"
+    }
+  },
+  "pattern": [
+    " A ",
+    " A "
+  ],
+  "result": {
+    "item": "minecraft:stick"
+  },
+  "show_notification": true
+}

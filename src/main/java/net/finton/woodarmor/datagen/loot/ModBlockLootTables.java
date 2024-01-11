@@ -29,6 +29,10 @@ public class ModBlockLootTables extends BlockLootSubProvider {
         this.add(ModBlocks.DEEPSLATE_STONE_STEEL_ORE.get(),
                 block -> createOreDrop(ModBlocks.DEEPSLATE_STONE_STEEL_ORE.get(), ModItems.RAW_STONE_STEEL.get()));
 
+        this.dropSelf(ModBlocks.WOOD_PIECE_STAIRS.get());
+        this.add(ModBlocks.WOOD_PIECE_SLAB.get(),
+                block -> createSlabItemTable(ModBlocks.WOOD_PIECE_SLAB.get()));
+
     }
 
     @Override

@@ -24,6 +24,8 @@ public static final RegistryObject<CreativeModeTab> WOOD_ARMOR_TAB = CREATIVE_MO
                     output.accept(ModItems.STONE_STEEL.get());
 
                     output.accept(ModBlocks.WOOD_PIECE_BUNDLE.get());
+                    output.accept(ModBlocks.WOOD_PIECE_SLAB.get());
+                    output.accept(ModBlocks.WOOD_PIECE_STAIRS.get());
                     output.accept(ModBlocks.RAW_STONE_STEEL_BLOCK.get());
                     output.accept(ModBlocks.STONE_STEEL_BLOCK.get());
                     output.accept(ModBlocks.SOUND_BLOCK.get());
@@ -36,6 +38,12 @@ public static final RegistryObject<CreativeModeTab> WOOD_ARMOR_TAB = CREATIVE_MO
                     //output.accept(ModItems.STONE_CHESTPLATE.get());
                     //output.accept(ModItems.STONE_LEGGINGS.get());
                     //output.accept(ModItems.STONE_BOOTS.get());
+
+                    output.accept(ModItems.STONE_STEEL_SWORD.get());
+                    output.accept(ModItems.STONE_STEEL_PICKAXE.get());
+                    output.accept(ModItems.STONE_STEEL_AXE.get());
+                    output.accept(ModItems.STONE_STEEL_SHOVEL.get());
+                    output.accept(ModItems.STONE_STEEL_HOE.get());
 
                     output.accept(ModItems.METAL_DETECTOR.get());
                     output.accept(ModItems.WOOD_CHIPS.get());

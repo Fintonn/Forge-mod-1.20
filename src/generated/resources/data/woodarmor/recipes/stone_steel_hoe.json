@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "A": {
+      "item": "woodarmor:stone_steel"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    }
+  },
+  "pattern": [
+    " AA",
+    " S ",
+    " S "
+  ],
+  "result": {
+    "item": "woodarmor:stone_steel_hoe"
+  },
+  "show_notification": true
+}

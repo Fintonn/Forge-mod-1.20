@@ -6,6 +6,8 @@ import net.finton.woodarmor.item.ModItems;
 import net.minecraft.advancements.critereon.ItemPredicate;
 import net.minecraft.data.PackOutput;
 import net.minecraft.data.recipes.*;
+import net.minecraft.world.item.Item;
+import net.minecraft.world.item.Items;
 import net.minecraft.world.item.crafting.AbstractCookingRecipe;
 import net.minecraft.world.item.crafting.Ingredient;
 import net.minecraft.world.item.crafting.Recipe;
@@ -31,6 +33,76 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .define('A', ModItems.WOOD_PIECE.get())
                 .unlockedBy("has_wood_piece", inventoryTrigger(ItemPredicate.Builder.item().
                         of(ModItems.WOOD_PIECE.get()).build()))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, Items.STICK)
+                .pattern(" A ")
+                .pattern(" A ")
+                .define('A', ModItems.WOOD_PIECE.get())
+                .unlockedBy("has_wood_piece", inventoryTrigger(ItemPredicate.Builder.item().
+                        of(ModItems.WOOD_PIECE.get()).build()))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.WOOD_PIECE_SLAB.get())
+                .pattern("AAA")
+                .define('A', ModItems.WOOD_PIECE.get())
+                .unlockedBy("has_wood_piece", inventoryTrigger(ItemPredicate.Builder.item().
+                        of(ModItems.WOOD_PIECE.get()).build()))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.WOOD_PIECE_STAIRS.get())
+                .pattern("A  ")
+                .pattern("AA ")
+                .pattern("AAA")
+                .define('A', ModItems.WOOD_PIECE.get())
+                .unlockedBy("has_wood_piece", inventoryTrigger(ItemPredicate.Builder.item().
+                        of(ModItems.WOOD_PIECE.get()).build()))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.TOOLS, ModItems.STONE_STEEL_PICKAXE.get())
+                .define('A', ModItems.STONE_STEEL.get())
+                .define('S', Items.STICK)
+                .pattern("AAA")
+                .pattern(" S ")
+                .pattern(" S ")
+                .unlockedBy("has_stone_steel", has(ModItems.STONE_STEEL.get()))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.TOOLS, ModItems.STONE_STEEL_AXE.get())
+                .define('A', ModItems.STONE_STEEL.get())
+                .define('S', Items.STICK)
+                .pattern(" AA")
+                .pattern(" SA")
+                .pattern(" S ")
+                .unlockedBy("has_stone_steel", has(ModItems.STONE_STEEL.get()))
+                .save(pWriter);
+
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.TOOLS, ModItems.STONE_STEEL_SWORD.get())
+                .define('A', ModItems.STONE_STEEL.get())
+                .define('S', Items.STICK)
+                .pattern(" A ")
+                .pattern(" A ")
+                .pattern(" S ")
+                .unlockedBy("has_stone_steel", has(ModItems.STONE_STEEL.get()))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.TOOLS, ModItems.STONE_STEEL_SHOVEL.get())
+                .define('A', ModItems.STONE_STEEL.get())
+                .define('S', Items.STICK)
+                .pattern(" A ")
+                .pattern(" S ")
+                .pattern(" S ")
+                .unlockedBy("has_stone_steel", has(ModItems.STONE_STEEL.get()))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.TOOLS, ModItems.STONE_STEEL_HOE.get())
+                .define('A', ModItems.STONE_STEEL.get())
+                .define('S', Items.STICK)
+                .pattern(" AA")
+                .pattern(" S ")
+                .pattern(" S ")
+                .unlockedBy("has_stone_steel", has(ModItems.STONE_STEEL.get()))
                 .save(pWriter);
 
         ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.WOOD_PIECE.get(), 9)

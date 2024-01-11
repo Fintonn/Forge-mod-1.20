@@ -4,9 +4,9 @@ import net.finton.woodarmor.WoodArmorMod;
 import net.finton.woodarmor.item.custom.FuelItem;
 import net.finton.woodarmor.item.custom.MetalDetectorItem;
 import net.finton.woodarmor.item.custom.ModFoodProperties;
+import net.finton.woodarmor.item.custom.ModToolTiers;
 import net.minecraft.core.registries.Registries;
-import net.minecraft.world.item.ArmorItem;
-import net.minecraft.world.item.Item;
+import net.minecraft.world.item.*;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
@@ -26,6 +26,17 @@ public class ModItems {
             () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> STONE_STEEL = ITEMS.register("stone_steel",
             () -> new Item(new Item.Properties()));
+
+    public static final RegistryObject<Item> STONE_STEEL_SWORD = ITEMS.register("stone_steel_sword",
+            () -> new SwordItem(ModToolTiers.STONE_STEEL, 1, 1, new Item.Properties().durability(256)));
+    public static final RegistryObject<Item> STONE_STEEL_PICKAXE = ITEMS.register("stone_steel_pickaxe",
+            () -> new PickaxeItem(ModToolTiers.STONE_STEEL, 1, 1, new Item.Properties().durability(256)));
+    public static final RegistryObject<Item> STONE_STEEL_AXE = ITEMS.register("stone_steel_axe",
+            () -> new AxeItem(ModToolTiers.STONE_STEEL, 5, 1, new Item.Properties().durability(256)));
+    public static final RegistryObject<Item> STONE_STEEL_HOE = ITEMS.register("stone_steel_hoe",
+            () -> new HoeItem(ModToolTiers.STONE_STEEL, 1, 1, new Item.Properties().durability(256)));
+    public static final RegistryObject<Item> STONE_STEEL_SHOVEL = ITEMS.register("stone_steel_shovel",
+            () -> new ShovelItem(ModToolTiers.STONE_STEEL, 1, 1, new Item.Properties().durability(256)));
 
 
 

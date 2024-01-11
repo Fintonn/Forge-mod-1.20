@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "woodarmor:block/wood_piece_slab"
+    },
+    "type=double": {
+      "model": "woodarmor:block/wood_piece_bundle"
+    },
+    "type=top": {
+      "model": "woodarmor:block/wood_piece_slab_top"
+    }
+  }
+}

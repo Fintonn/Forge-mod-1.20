@@ -23,7 +23,19 @@ public class ModItemModelProvider extends ItemModelProvider {
         simpleItem(ModItems.STONE_INGOT);
         simpleItem(ModItems.WOOD_CHIPS);
 
+        handheldItem(ModItems.STONE_STEEL_SWORD);
+        handheldItem(ModItems.STONE_STEEL_PICKAXE);
+        handheldItem(ModItems.STONE_STEEL_AXE);
+        handheldItem(ModItems.STONE_STEEL_SHOVEL);
+        handheldItem(ModItems.STONE_STEEL_HOE);
+
         simpleItem(ModItems.METAL_DETECTOR);
+    }
+
+    private ItemModelBuilder handheldItem(RegistryObject<Item> item) {
+        return withExistingParent(item.getId().getPath(),
+                new ResourceLocation("item/handheld")).texture("layer0",
+                new ResourceLocation(WoodArmorMod.MOD_ID, "item/" + item.getId().getPath()));
     }
 
     private ItemModelBuilder simpleItem(RegistryObject<Item> item) {

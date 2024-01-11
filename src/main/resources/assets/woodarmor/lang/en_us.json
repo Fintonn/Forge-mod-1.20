@@ -10,6 +10,12 @@
   "item.woodarmor.metal_detector": "Metal Detector",
   "item.woodarmor.wood_chips": "Wood Chips",
 
+  "item.woodarmor.stone_steel_sword": "Stone Steel Sword",
+  "item.woodarmor.stone_steel_pickaxe": "Stone Steel Pickaxe",
+  "item.woodarmor.stone_steel_axe": "Stone Steel Axe",
+  "item.woodarmor.stone_steel_shovel": "Stone Steel Shovel",
+  "item.woodarmor.stone_steel_hoe": "Stone Steel Hoe",
+
   "block.woodarmor.wood_piece_bundle": "Wood Piece Bundle",
   "block.woodarmor.stone_steel_ore": "Stone Steel Ore",
   "block.woodarmor.deepslate_stone_steel_ore": "Deepslate Stone Steel Ore",
@@ -17,6 +23,8 @@
   "block.woodarmor.stone_steel_block": "Stone Steel Block",
   "block.woodarmor.sound_block": "Sound Block",
 
+  "block.woodarmor.wood_piece_stairs": "Wood Piece Stairs",
+  "block.woodarmor.wood_piece_slab": "Wood Piece Slab",
 
   "creativetab.wood_armor_tab": "Wood Armor",
 
