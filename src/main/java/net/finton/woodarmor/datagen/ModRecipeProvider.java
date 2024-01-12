@@ -113,6 +113,9 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
         nineBlockStorageRecipes(pWriter, RecipeCategory.MISC, ModItems.RAW_STONE_STEEL.get(), RecipeCategory.MISC, ModBlocks.RAW_STONE_STEEL_BLOCK.get(),
                 "woodarmor:raw_stone_steel", "stone_steel", "woodarmor:raw_stone_steel_block", "stone_steel");
 
+        nineBlockStorageRecipes(pWriter, RecipeCategory.MISC, ModItems.STONE_STEEL.get(), RecipeCategory.MISC, ModBlocks.STONE_STEEL_BLOCK.get(),
+                "woodarmor:stone_steel", "stone_steel", "woodarmor:stone_steel_block", "stone_steel");
+
         oreSmelting(pWriter, STONE_STEEL_SMELTABLES, RecipeCategory.MISC, ModItems.STONE_STEEL.get(), 0.25f, 200, "stone_steel");
         oreBlasting(pWriter, STONE_STEEL_SMELTABLES, RecipeCategory.MISC, ModItems.STONE_STEEL.get(), 0.25f, 100, "stone_steel");
     }
